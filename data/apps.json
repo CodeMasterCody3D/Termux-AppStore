@@ -644,6 +644,7 @@
     "version": "v2.3.0",
     "supported_distro": "ubuntu",
     "install_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/install.sh",
+    "uninstall_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/uninstall.sh",
     "package_name": "orca-slicer",
     "logo_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/logo.png"
   },
