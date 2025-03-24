@@ -643,7 +643,7 @@
     "supported_arch": "aarch64",
     "version": "v2.3.0",
     "supported_distro": "Ubuntu",
-    "install_url": "https://github.com/CodeMasterCody3D/OrcaSlicer/releases/download/arm64/install-orca-debian.sh",
+    "install_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/install.sh",
     "uninstall_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/uninstall.sh",
     "package_name": "orca-slicer",
     "logo_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/logo.png"
