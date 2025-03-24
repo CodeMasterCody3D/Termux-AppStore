@@ -1,16 +1,15 @@
 #!/bin/bash
 
+# Get OS details inside PRoot
+OS_INFO=$(pdrun cat /etc/os-release)
+ID=$(echo "$OS_INFO" | grep '^ID=' | cut -d= -f2 | tr -d '"')
+ID_LIKE=$(echo "$OS_INFO" | grep '^ID_LIKE=' | cut -d= -f2 | tr -d '"')
+
 # Check if running on Ubuntu
-if [ pdrun grep '^NAME=' /etc/os-release | cut -d= -f2 | tr -d '"' ]; then
-    echo "ubuntu"
-    if [ "$ID" = "ubuntu" ] || [ "$ID_LIKE" = "ubuntu" ]; then
-        echo "Running on Ubuntu, proceeding with installation..."
-    else
-        echo "This application is only supported on Ubuntu!"
-        exit 1
-    fi
+if [[ "$ID" == "ubuntu" || "$ID_LIKE" == "ubuntu" ]]; then
+    echo "Running on Ubuntu, proceeding with installation..."
 else
-    echo "Cannot determine the distribution. Installation aborted."
+    echo "This application is only supported on Ubuntu!"
     exit 1
 fi
 
