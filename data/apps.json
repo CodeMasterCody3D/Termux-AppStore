@@ -638,7 +638,7 @@
     "categories": [
       "Graphics"
     ],
-    "app_type": "distro",
+    "app_type": "native",
     "run_cmd": "orca-slicer",
     "supported_arch": "aarch64",
     "version": "v2.3.0",
