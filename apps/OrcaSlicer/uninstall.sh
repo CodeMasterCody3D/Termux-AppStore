@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-package_remove_and_check "OrcaSlicer"
+package_remove_and_check "orcaslicer"
 
 # Uninstall OrcaSlicer
 pdrun sudo apt remove -y orcaslicer
