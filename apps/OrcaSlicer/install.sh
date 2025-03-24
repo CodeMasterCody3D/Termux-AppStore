@@ -2,7 +2,7 @@
 
 # Check if running on Ubuntu
 if [ -z "$selected_distro" ]; then
-    echo "$selected_distro"
+    echo "ubuntu"
     if [ "$ID" = "ubuntu" ] || [ "$ID_LIKE" = "ubuntu" ]; then
         echo "Running on Ubuntu, proceeding with installation..."
     else
