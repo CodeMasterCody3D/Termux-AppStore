@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Check if running on Ubuntu
-if [ -f /etc/os-release ]; then
-    pdrun . /etc/os-release
+if [ -z "$selected_distro" ]; then
+    echo "$selected_distro"
     if [ "$ID" = "ubuntu" ] || [ "$ID_LIKE" = "ubuntu" ]; then
         echo "Running on Ubuntu, proceeding with installation..."
     else
