@@ -636,8 +636,7 @@
     "folder_name": "OrcaSlicer",
     "description": "Advanced 3D printing slicer software for preparing 3D models for printing.",
     "categories": [
-      "Graphics",
-      "Development"
+      "Graphics"
     ],
     "app_type": "distro",
     "run_cmd": "orca-slicer",
