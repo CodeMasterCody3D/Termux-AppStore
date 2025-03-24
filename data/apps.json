@@ -637,13 +637,16 @@
     "description": "Advanced 3D printing slicer software for preparing 3D models for printing.",
     "categories": [
       "Graphics"
+      "Development"
     ],
     "app_type": "distro",
     "run_cmd": "orca-slicer",
     "supported_arch": "aarch64",
-    "version": "v1.76.81",
-    "supported_distro": "Ubuntu",
-    "package_name": "brave-browser",
+    "version": "v2.3.0",
+    "supported_distro": "ubuntu",
+    "install_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/install.sh",
+    "uninstall_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/uninstall.sh",
+    "package_name": "orca-slicer",
     "logo_url": "https://raw.githubusercontent.com/CodeMasterCody3D/Termux-AppStore/refs/heads/main/apps/OrcaSlicer/logo.png"
   },
   {
